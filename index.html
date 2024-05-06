@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>My Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    /* General styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      color: #f8f8f2;
+      background-color: #282a36;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: #f9a825;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Container */
+    .container {
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #44475a;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #6d7180;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #f8f8f2;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1rem;
+      color: #a7a9ac;
+    }
+
+    /* Image */
+    .image {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    #image img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Sections */
+    section {
+      padding: 20px 0;
+      border-bottom: 1px solid #6d7180;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 1.8rem;
+      color: #f8f8f2;
+    }
+
+    /* About Me */
+    #about p {
+      text-align: justify;
+      line-height: 1.5;
+    }
+
+    /* Experience and Education */
+    .list-group {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .list-group-item {
+      padding: 10px;
+      border-bottom: 1px solid #6d7180;
+      transition: background-color 0.2s ease;
+    }
+
+    .list-group-item:hover {
+      background-color: #373a47;
+    }
+
+    .list-group-item strong {
+      color: #f9a825;
+    }
+
+    /* Skills */
+    #skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #skills li {
+      flex: 0 0 45%;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      background-color: #6d7180;
+      color: #f8f8f2;
+      text-align: center;
+    }
+
+    /* Contact */
+    #contact p {
+      margin: 5px 0;
+    }
+
+    #contact p i {
+      margin-right: 5px;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+      }
+
+      #skills ul {
+        flex-direction: column;
+      }
+
+      #skills li {
+        flex: 0 0 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <img class="image" src="img.png" alt="Jamaica M. Loria">
+      </div>
+      <h1>Jamaica M. Loria</h1>
+      <p>Bachelor of Science in Information Technology Student</p>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>As an aspiring web and software developer, I'm passionate about technology and eager to apply my skills in
+        programming languages, frameworks, and development tools. With strong communication, teamwork, and
+        problem-solving abilities, I'm committed to driving innovation and contributing to the success of any team I
+        join.</p>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>Secretary</strong>
+          <br>
+          <h4>Vaya Condeo Leah Maternity Clinic (2023-Present)</h3>
+            As a secretary in a maternity clinic, I play a pivotal role in ensuring smooth daily operations,
+            maintaining patient relations, and providing administrative support to medical staff. Key responsibilities
+            include scheduling appointments, greeting patients, managing phone calls and correspondence, maintaining
+            patient records, coordinating with staff, handling billing and insurance tasks, maintaining clinic
+            inventory,
+            and ensuring regulatory compliance. Additionally, I contribute to the clinic's overall atmosphere
+            and reputation by creating a welcoming environment and supporting the clinic's public image. Overall, my
+            role
+            as a secretary is integral to the success of the maternity clinic.
+            <br>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>Elementary</strong>
+          <br>
+          Putingbuhagin Elementary School (2009-2016)
+          <br>
+        </li>
+        <li class="list-group-item">
+          <strong>Highschool</strong>
+          <br>
+          Buhaynasapa National High School (2016-2020)
+          <br>
+        </li>
+        <li class="list-group-item">
+          <strong>Senior Highschool</strong>
+          <br>
+          Buhaynasapa Integrated National Highschool (2020-2022)
+          <br>
+        </li>
+        <li class="list-group-item">
+          <strong>College</strong>
+          <br>
+          Dalubhasaan ng Lungsod ng Lucena (2022-Present)
+        </li>
+      </ul>
+    </section>
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <strong>Academic Distinction:</strong> Ranked 4th Among All Academic Strands
+        </li>
+        <li class="list-group-item">
+          <strong>Consistent Academic Excellence:</strong> Honor Student
+        </li>
+        <li class="list-group-item">
+          <strong>Journalism Workshop:</strong> Secured 3rd place in creating a front-page layout.
+        </li>
+        <li class="list-group-item">
+          <strong>Organization Leadership:</strong> Selected as the leader of ICES 2nd District.
+        </li>
+        <li class="list-group-item">
+          <strong>Mythical 5 Status:</strong> Received the prestigious Mythical 5 recognition (Basketball).
+        </li>
+        <li class="list-group-item">
+          <strong>Basketball Captaincy:</strong> Captained the team in the 2023-2024 season.
+        </li>
+        <li class="list-group-item">
+          <strong>Journalism Engagement:</strong> Member of the Journalism Club.
+        </li>
+        <li class="list-group-item">
+          <strong>Writing Proficiency:</strong> "Mahusay sa Pagsulat ng Lathalain" (Excellence in Essay Writing) Award.
+        </li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Programming Languages</li>
+        <li class="list-group-item">Web Development</li>
+        <li class="list-group-item">Database Systems</li>
+        <li class="list-group-item">Development Tools</li>
+        <li class="list-group-item">Data Analysis</li>
+        <li class="list-group-item">Communication</li>
+        <li class="list-group-item">Teamwork and Collaboration</li>
+        <li class="list-group-item">Adaptability</li>
+        <li class="list-group-item">Time Management</li>
+        <li class="list-group-item">Leadership</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><i class="fas fa-envelope"></i> Email: loria10822@blondmail.com</p>
+      <p><i class="fas fa-phone"></i> Phone: +63 9483345185</p>
+
+    </section>
+  </div>
+</body>
+
+</html>
