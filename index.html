@@ -12,14 +12,15 @@
     /* General styles */
     body {
       font-family: 'Arial', sans-serif;
-      color: #f8f8f2;
-      background-color: #282a36;
+      color: #FFFFFF;
+      /* Changed for readability */
+      background-color: #5a4a6e;
       margin: 0;
       padding: 0;
     }
 
     a {
-      color: #f9a825;
+      color: #b388eb;
       text-decoration: none;
     }
 
@@ -33,7 +34,7 @@
       margin: 20px auto;
       padding: 20px;
       border-radius: 5px;
-      background-color: #44475a;
+      background-color: #7c689c;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
 
@@ -41,19 +42,21 @@
     header {
       text-align: center;
       padding: 20px 0;
-      border-bottom: 1px solid #6d7180;
+      border-bottom: 1px solid #8d7aa3;
     }
 
     h1 {
       margin: 0;
       font-size: 2.5rem;
-      color: #f8f8f2;
+      color: #FFFFFF;
+      /* Changed for readability */
     }
 
     p {
       margin: 0;
       font-size: 1rem;
-      color: #a7a9ac;
+      color: #FFFFFF;
+      /* Changed for readability */
     }
 
     /* Image */
@@ -69,16 +72,37 @@
       display: block;
     }
 
+    /* Image Animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.5);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .image {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      animation: fadeIn 2s ease-out;
+    }
+
     /* Sections */
     section {
       padding: 20px 0;
-      border-bottom: 1px solid #6d7180;
+      border-bottom: 1px solid #8d7aa3;
     }
 
     h2 {
       margin-bottom: 10px;
       font-size: 1.8rem;
-      color: #f8f8f2;
+      color: #FFFFFF;
+      /* Changed for readability */
     }
 
     /* About Me */
@@ -96,16 +120,16 @@
 
     .list-group-item {
       padding: 10px;
-      border-bottom: 1px solid #6d7180;
+      border-bottom: 1px solid #8d7aa3;
       transition: background-color 0.2s ease;
     }
 
     .list-group-item:hover {
-      background-color: #373a47;
+      background-color: #6e5f7b;
     }
 
     .list-group-item strong {
-      color: #f9a825;
+      color: #b388eb;
     }
 
     /* Skills */
@@ -120,8 +144,9 @@
       padding: 5px;
       margin-bottom: 10px;
       border-radius: 5px;
-      background-color: #6d7180;
-      color: #f8f8f2;
+      background-color: #8d7aa3;
+      color: #FFFFFF;
+      /* Changed for readability */
       text-align: center;
     }
 
